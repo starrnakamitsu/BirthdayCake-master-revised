@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         CakeView view = findViewById(R.id.cakeview);
         CakeController controller = new CakeController(view);
 
-        Button blowOut = findViewById(R.id.button);
+        Button blowOut = findViewById(R.id.extinguish);
         blowOut.setOnClickListener(controller);
 
         CompoundButton candles = findViewById(R.id.switch2);
